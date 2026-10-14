@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WrenchMind AI — Automotive Diagnostic Reasoning</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+
+  <!-- Navigation -->
+  <nav class="border-b border-slate-800/80 bg-slate-900/90 backdrop-blur fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <!-- Logo Image -->
+        <a href="#home" class="flex items-center">
+          <img src="wrenchmind-brand-2026-10.png" alt="WrenchMind AI Logo" class="h-10 sm:h-12 w-auto object-contain" style="max-width:220px;height:auto;max-height:48px">
+        </a>
+      </div>
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#features" class="hover:text-cyan-400 transition">Features</a>
+        <a href="#lineage" class="hover:text-cyan-400 transition">OEM Lineage</a>
+        <a href="#pricing" class="hover:text-cyan-400 transition">Pricing</a>
+      </div>
+      <a href="https://wrenchmind-ai-relaunch.politeluck4.chatgpt.site/#home" class="bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white font-semibold px-5 py-2.5 rounded-lg transition text-sm shadow-lg shadow-cyan-500/25">
+        Launch App
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-36 pb-20 px-4 max-w-7xl mx-auto text-center">
+    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-400 text-xs font-semibold mb-6 shadow-sm">
+      <i class="fa-solid fa-shield-check"></i> AI reasoning and reviewed sources, clearly separated
+    </div>
+    <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight max-w-4xl mx-auto leading-tight">
+      Stop Guessing. Start Diagnosing with <span class="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-200 bg-clip-text text-transparent">Clearer Evidence</span>.
+    </h1>
+    <p class="mt-6 text-lg text-slate-400 max-w-2xl mx-auto">
+      Collect vehicle observations with a compatible BLE OBD-II adapter and supported browser. Explore plain-English AI reasoning and evidence checklists. Vehicle-specific procedures and specifications require matching reviewed sources.
+    </p>
+    <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a href="https://wrenchmind-ai-relaunch.politeluck4.chatgpt.site/#home" class="w-full sm:w-auto bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 hover:opacity-90 text-white font-bold px-8 py-3.5 rounded-xl transition shadow-xl shadow-cyan-500/20">
+        Explore Diagnostic Reasoning
+      </a>
+      <a href="#pricing" class="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 text-slate-200 font-semibold px-8 py-3.5 rounded-xl border border-slate-700/80 transition">
+        View Pricing Plans
+      </a>
+    </div>
+  </section>
+
+  <!-- Features Grid -->
+  <section id="features" class="py-20 bg-slate-900/60 border-t border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-white">Built for Hardware & Precision</h2>
+        <p class="text-slate-400 mt-2">Built around source transparency, evidence collection, and compatible browser connections.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800/80 hover:border-cyan-500/40 transition">
+          <div class="w-12 h-12 bg-cyan-500/10 text-cyan-400 rounded-xl flex items-center justify-center mb-4 text-xl">
+            <i class="fa-solid fa-bluetooth"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Web Bluetooth Telemetry</h3>
+          <p class="text-slate-400 text-sm">Use a supported browser and compatible BLE adapter to read available vehicle data. Adapter, operating system, browser, and PID support vary. Physical adapter testing remains in progress.</p>
+        </div>
+        <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800/80 hover:border-cyan-500/40 transition">
+          <div class="w-12 h-12 bg-cyan-500/10 text-cyan-400 rounded-xl flex items-center justify-center mb-4 text-xl">
+            <i class="fa-solid fa-microphone"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">Hands-Free Voice Controls</h3>
+          <p class="text-slate-400 text-sm">On supported browsers, Plus and Pro users can request microphone access to navigate available guide steps by voice. Keep the vehicle stationary when operating the app.</p>
+        </div>
+        <div class="bg-slate-950 p-6 rounded-2xl border border-slate-800/80 hover:border-cyan-500/40 transition">
+          <div class="w-12 h-12 bg-cyan-500/10 text-cyan-400 rounded-xl flex items-center justify-center mb-4 text-xl">
+            <i class="fa-solid fa-wifi-slash"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-2">IndexedDB Offline Caching</h3>
+          <p class="text-slate-400 text-sm">Save available guide snapshots on your device. Open and check the saved copy before relying on it offline; offline access does not create or verify missing service information.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="lineage" class="py-16 px-4 max-w-4xl mx-auto">
+<h2 class="text-3xl font-bold text-white">Know where your guidance comes from</h2>
+<p class="mt-4 text-slate-300">AI Reasoning / Evidence Checklist identifies generated reasoning and unreviewed references. These results do not display an OEM badge and do not establish a diagnosis, repair approval, or driving safety.</p>
+<p class="mt-4 text-slate-400">Reviewed matching procedures remain separate. OEM provenance requires authentic factory documentation matched to the exact vehicle and applicable configuration. Availability varies by vehicle.</p>
+</section>
+<!-- Pricing -->
+  <section id="pricing" class="py-20 border-t border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-white">Simple, Transparent Tiering</h2>
+        <p class="text-slate-400 mt-2">Current sandbox plans: Free, Plus $9.99 USD/month, and Pro $24.99 USD/month. Checkout uses test payments only; these are not live sales.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <!-- Free Tier -->
+        <div class="bg-slate-900/80 p-8 rounded-2xl border border-slate-800 flex flex-col justify-between">
+          <div>
+            <h3 class="text-lg font-bold text-white">Essential Free</h3>
+            <div class="text-3xl font-extrabold text-white my-4">$0 <span class="text-xs font-normal text-slate-400">/mo</span></div>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i> 3 Fresh AI Diagnostics/mo</li>
+              <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i> Standard DTC Code Lookup</li>
+              <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i> Evidence Checklist</li>
+            </ul>
+          </div>
+          <a href="https://wrenchmind-ai-relaunch.politeluck4.chatgpt.site/#account" class="mt-8 block w-full py-2.5 text-center font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-white transition">Start Free</a>
+        </div>
+        <!-- Plus Tier -->
+        <div class="bg-slate-900/90 p-8 rounded-2xl border-2 border-cyan-500 relative flex flex-col justify-between shadow-xl shadow-cyan-500/10">
+          <div class="absolute -top-3 right-6 bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold text-xs px-3 py-1 rounded-full shadow-md">POPULAR</div>
+          <div>
+            <h3 class="text-lg font-bold text-white">Plus Tier</h3>
+            <div class="text-3xl font-extrabold text-white my-4">$9.99 <span class="text-xs font-normal text-slate-400">/mo</span></div>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i> AI Explanations with Usage Controls</li>
+              <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i> Hands-Free Voice Mode</li>
+              <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i> Reviewed Specs When Available & Local Snapshots</li>
+            </ul>
+          </div>
+          <a href="https://wrenchmind-ai-relaunch.politeluck4.chatgpt.site/#account" class="mt-8 block w-full py-2.5 text-center font-semibold rounded-lg bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white transition shadow-md">Upgrade to Plus</a>
+        </div>
+        <!-- Pro Tier -->
+        <div class="bg-slate-900/80 p-8 rounded-2xl border border-slate-800 flex flex-col justify-between">
+          <div>
+            <h3 class="text-lg font-bold text-white">Pro HUD</h3>
+            <div class="text-3xl font-extrabold text-white my-4">$24.99 <span class="text-xs font-normal text-slate-400">/mo</span></div>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i> Real-time BLE OBD-II HUD</li>
+              <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i> Live Telemetry Gauges</li>
+              <li><i class="fa-solid fa-check text-cyan-400 mr-2"></i> AI Foreman Chat & Reviewed Sources When Available</li>
+            </ul>
+          </div>
+          <a href="https://wrenchmind-ai-relaunch.politeluck4.chatgpt.site/#account" class="mt-8 block w-full py-2.5 text-center font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-white transition">Go Pro</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/80 py-10 bg-slate-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <img src="wrenchmind-brand-2026-10.png" alt="WrenchMind AI Logo" class="h-8 w-auto object-contain">
+      </div>
+      <p class="text-xs text-slate-500 text-center sm:text-right">© 2026 WrenchMind AI. All rights reserved. Registered domain: wrenchmindai.com.</p>
+    </div>
+  </footer>
+</body>
+</html>
